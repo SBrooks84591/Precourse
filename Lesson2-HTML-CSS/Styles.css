@@ -1,0 +1,19 @@
+div {
+    border: 5px dotted blueviolet;
+}
+
+.spanClass {
+    margin: 50px;
+}
+
+#divID {
+    height: 300px;
+    width: 400px;
+    background: gray;
+    padding: 50px;
+    border: 3px dotted solid black;
+}
+
+#spanID {
+    font-size: 18px;
+}
