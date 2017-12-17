@@ -1,19 +1,32 @@
-div {
-    border: 5px dotted blueviolet;
+h1 {
+    color: #E96B10;
 }
 
-.spanClass {
-    margin: 50px;
+h3,
+h4 {
+    color: #E96B10;
 }
 
-#divID {
-    height: 300px;
+body {
+    background-image: url('seattle-space-needle-1024x674.jpg');
+}
+
+img {
     width: 400px;
-    background: gray;
-    padding: 50px;
-    border: 3px dotted solid black;
 }
 
-#spanID {
+#spanId {
+    margin: 50px;
     font-size: 18px;
+    color: white;
+}
+
+#thirdDiv {
+    color: white;
+    border: dotted 5px;
+    border-color: rgb(41, 40, 40;
+    padding: 50;
+    height: 600px;
+    width: 500px;
+    background-color: #E96B10;
 }
