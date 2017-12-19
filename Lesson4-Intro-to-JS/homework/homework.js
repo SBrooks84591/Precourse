@@ -114,7 +114,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
     // raise num to whatever power is passed in as exponent
     // code here
-    return Math.pow(15, 2);
+    return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
@@ -148,7 +148,7 @@ function getGreeting(name) {
     // Take the name string and concatenate other strings onto it so it takes the following form:
     // 'Sam' -> 'Hello Sam!'
     // code here
-    return 'Hello' + ' ' + 'name' + '!';
+    return 'Hello ' + name + '!';
 }
 
 // If you can't remember these area formulas then head over to Google or look at the test code.
@@ -176,6 +176,8 @@ function getCircleArea(radius) {
 function getRectangularPrismVolume(length, width, height) {
     // return the volume of the 3D rectangular prism given the length, width, and height
     // code here
+    //V = w h l
+    return width * height * length;
 }
 
 // Do not modify code below this line.
