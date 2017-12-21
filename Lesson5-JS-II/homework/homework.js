@@ -67,20 +67,25 @@ function fizzBuzz(num) {
     // if num is divisible by 5 return 'buzz'
     // if num is divisible by 3 & 5 return 'fizzbuzz'
     // otherwise return num
+
     if (num % 3 === 0) {
 
         return 'fizz';
     } else if (num % 5 === 0) {
 
         return 'buzz';
-    }
-    if ((num % 3 === 0) && (num % 5 === 0)); {
+    } else if ((num % 3 === 0) && (num % 5 === 0)); {
+
         return 'fizzbuzz';
     }
 
 
-
 }
+
+
+
+
+
 
 function isPrime(num) {
     // return true if num is prime.
@@ -91,9 +96,13 @@ function isPrime(num) {
     //set boolean variable to true
     //return false if not prme
     //return true if priime
-
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return num > 1;
 }
-
 
 
 function returnFirst(arr) {
