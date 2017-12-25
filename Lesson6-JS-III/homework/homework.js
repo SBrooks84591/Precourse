@@ -6,8 +6,8 @@ function makeCat(name, age) {
     // add a method called meow that returns the string 'Meow!'
     // return the object
     let cat = {
-        name: 'name',
-        age: 1,
+        name: name,
+        age: age,
         meow: function() {
             return 'Meow!';
         }
