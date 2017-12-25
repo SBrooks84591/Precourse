@@ -7,9 +7,9 @@ function makeCat(name, age) {
     // return the object
     let cat = {
         name: 'name',
-        age: 'age',
+        age: 1,
         meow: function() {
-            return ('Meow!');
+            return 'Meow!';
         }
 
     };
